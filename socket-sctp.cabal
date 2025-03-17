@@ -27,8 +27,8 @@ library
   exposed-modules:     System.Socket.Protocol.SCTP
   other-modules:       System.Socket.Protocol.SCTP.Internal
   build-depends:       base >= 4.7 && < 5
-                     , bytestring < 0.11
-                     , socket >= 0.7.0.0 && < 0.8
+                     , bytestring
+                     , socket >= 0.8.0.0
   hs-source-dirs:      src
   include-dirs:        src/System/Socket/Protocol/SCTP
   c-sources:           src/System/Socket/Protocol/SCTP/hs_sctp.c
